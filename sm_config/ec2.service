@@ -1,0 +1,2 @@
+[Service]
+ExecStart=/usr/bin/java -Dserver.port=8183 -Xms256M -Xmx256M -Dspring.profiles.active=test -jar /Users/renren/app/ec/target/ec-1.0.jar

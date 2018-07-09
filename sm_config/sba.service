@@ -1,0 +1,2 @@
+[Service]
+ExecStart=/usr/bin/java -Dserver.port=9412 -Xms256M -Xmx256M -Dspring.profiles.active=insecure -jar /Users/renren/sm/sba/target/sba-1.0.jar

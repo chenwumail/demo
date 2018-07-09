@@ -1,0 +1,26 @@
+version: "3"
+services:
+  eureka:
+    image: springcloud/eureka
+    container_name: eureka
+    ports:
+      - "8761:8761"
+  ec:
+    image: jdk8
+    container_name: ec
+    entrypoint: "java -Dserver.port=8182 -Xms256M -Xmx256M -jar /Users/renren/ec/target/ec-1.0.jar"
+    ports:
+      - "8182:8182"
+    volumes:
+      - "/Users:/Users"
+  zu:
+    image: zu
+    container_name: zu
+  c5:
+    image: jdk8
+    container_name: c5
+    entrypoint: "java -Xms128M -Xmx128M -jar /Users/renren/ec/client5/target/client5-1.0.jar"
+    volumes:
+      - "/Users:/Users"
+    depends_on:
+      - ec

@@ -1,0 +1,10 @@
+[Unit]
+Description=es
+
+[Service]
+ExecStart=/Users/renren/dist/elasticsearch-6.3.0/bin/elasticsearch
+Restart=always
+
+[Install]
+WantedBy=default.target
+

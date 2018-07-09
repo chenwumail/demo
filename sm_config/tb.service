@@ -1,0 +1,2 @@
+[Service]
+ExecStart=/usr/bin/java -Dserver.port=9414 -Xms256M -Xmx256M -jar /Users/renren/sm/turbine/target/turbine-2.0.jar

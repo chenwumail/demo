@@ -1,0 +1,2 @@
+[Service]
+ExecStart=/usr/bin/java -Ddebug -Dserver.port=8185 -Xms256M -Xmx256M -Dspring.profiles.active=dev -jar /Users/renren/app/user/target/user-1.0.jar 

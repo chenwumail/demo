@@ -1,0 +1,2 @@
+[Service]
+ExecStart=/usr/bin/java -Dserver.port=9410 -Xms256M -Xmx256M -jar /Users/renren/app/hy/target/hy-1.0.jar

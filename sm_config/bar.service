@@ -1,0 +1,10 @@
+[Unit]
+Description=bar
+
+[Service]
+ExecStart=LOG=".log" /usr/bin/tail -f /var/log/system.log
+Restart=always
+
+[Install]
+WantedBy=default.target
+

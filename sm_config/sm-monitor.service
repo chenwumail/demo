@@ -1,0 +1,7 @@
+[Service]
+ExecStart=/usr/bin/sm monitor
+Restart=always
+User=renren
+
+[Install]
+WantedBy=default.target

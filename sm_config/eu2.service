@@ -1,0 +1,2 @@
+[Service]
+ExecStart=/usr/bin/java -Xms128M -Xmx128M -XX:+UseSerialGC -Dspring.profiles.active=discovery2 -jar /Users/renren/app/eu/target/eu-1.0.jar

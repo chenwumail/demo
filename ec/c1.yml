@@ -1,0 +1,16 @@
+eureka:
+  image: springcloud/eureka
+  container_name: eureka
+  ports:
+   - "8761:8761"
+   - "8769:8769"
+ec:
+  image: ec 
+  container_name: ec
+ed:
+  image: ec
+  container_name: ec2
+  entrypoint: "java -Dserver.port=8183 -jar /app.jar --debug"
+zu:
+  image: zu
+  container_name: zu

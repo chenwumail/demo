@@ -1,0 +1,2 @@
+[Service]
+ExecStart=/usr/bin/java -Xms128M -Xmx128M -XX:+UseSerialGC -jar /Users/renren/app/zu/target/zu-1.0.jar

@@ -1,0 +1,2 @@
+[Service]
+ExecStart=/usr/bin/java -Dlogging.level.root=DEBUG -Ddebug -Dserver.port=8182 -Xms256M -Xmx256M -Dspring.profiles.active=dev -jar /Users/renren/app/ec/target/ec-1.0.jar
