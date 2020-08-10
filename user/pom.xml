@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>user</name>
-    <description>homethy crm listing manangement</description>
+    <description>user</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

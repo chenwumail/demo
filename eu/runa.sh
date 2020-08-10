@@ -1,1 +1,1 @@
-java -jar target/eu-0.0.1-SNAPSHOT.jar --spring.profiles.active=discovery1
+java -jar target/eu-1.0.jar --spring.profiles.active=discovery1

@@ -1,4 +1,4 @@
 [Service]
-ExecStart=/usr/bin/java -server  -Dlogging.level.root=DEBUG -Xms256M -Xmx256M -Xss256k -Dspring.profiles.active=dev -DLOG_PATH=/Users/renren/bj/homethy/homethy-lead-microservice/homethy-lead-server/logs/ -Dfile.encoding=UTF-8 -Xdebug -Xnoagent -jar /Users/renren/bj/homethy/homethy-lead-microservice/homethy-lead-server/target/homethy-lead-server-1.0.0-SNAPSHOT.jar
-WorkingDirectory=/Users/renren/bj/homethy/homethy-lead-microservice/homethy-lead-server/
+ExecStart=/usr/bin/java -server  -Dlogging.level.root=DEBUG -Xms256M -Xmx256M -Xss256k -Dspring.profiles.active=dev -DLOG_PATH=/Users/test/bj/test/test-lead-microservice/test-lead-server/logs/ -Dfile.encoding=UTF-8 -Xdebug -Xnoagent -jar /Users/test/bj/test/test-lead-microservice/test-lead-server/target/test-lead-server-1.0.0-SNAPSHOT.jar
+WorkingDirectory=/Users/test/bj/test/test-lead-microservice/test-lead-server/
 Restart=always

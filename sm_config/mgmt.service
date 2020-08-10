@@ -1,4 +1,4 @@
 [Service]
-ExecStart=/usr/bin/java -Dlogging.level.root=DEBUG -server -Dchime.application.name=chime -Dserver.port=8302 -Xms512M -Xmx512M -Dspring.profiles.active=dev -DLOG_PATH=./logs -jar target/listingmgmt-0.0.1-SNAPSHOT.jar
+ExecStart=/usr/bin/java -Dlogging.level.root=DEBUG -server -Dchime.application.name=chime -Dserver.port=8302 -Xms512M -Xmx512M -Dspring.profiles.active=dev -DLOG_PATH=./logs -jar target/mgmt-0.0.1-SNAPSHOT.jar
 Restart=always
-WorkingDirectory=/Users/renren/bj/homethy/homethy-crm-listingmgmt
+WorkingDirectory=/Users/test/bj/test/test-ccc-mgmt
