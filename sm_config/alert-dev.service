@@ -1,4 +1,0 @@
-[Service]
-ExecStart=/usr/bin/java -jar -Xms512M -Xmx512M -Xss256k -DLOG_PATH=logs -Dchime.application.name=chime -DES_LOG_OPEN=true -Dserver.port=8202 -Dalert.taskserver.start.status=true -Dspring.profiles.active=dev -Dserver.max-http-header-size=65536 -Dkey=microservice-server-propertyalert-0.0.1-SNAPSHOT.war-dev /Users/renren/bj/property-alert/microservice-server-propertyalert/target/microservice-server-propertyalert-0.0.1-SNAPSHOT.war
-WorkingDirectory=/Users/renren/bj/property-alert/microservice-server-propertyalert
-Restart=always
